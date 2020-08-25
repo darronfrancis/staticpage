@@ -30,7 +30,7 @@
         rgba(0, 0, 0, 0.7),
         rgba(0, 0, 0, 0.2)
       ),
-      url(./assets/background.jpg);
+      url(./assets/IMG_9534.jpeg);
     background-size: cover;
     height: 100vh;
     background-position: center;
@@ -45,13 +45,13 @@
     color: white;
     text-align: center;
     text-shadow: 2px 2px 10px black;
-    font-size: 6vmax;
 }
 
 #about{
     background-color: white;
     color: rgb(37, 37, 51);
     padding: 2em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #productTitle{
