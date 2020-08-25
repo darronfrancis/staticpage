@@ -1,0 +1,101 @@
+#navbar{
+    background-color: rgb(37, 37, 51);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+}
+
+#navbarText{
+    position: relative;
+    color: white;
+}
+
+#navbarList{
+    position: relative;
+    margin-top: -2em;
+    color: white;
+    list-style-type: none;
+    text-align: end;
+    letter-spacing: 1em;
+}
+
+#navbarButtons{
+    background-color: transparent;
+    color: white;
+    border: 0em;
+}
+
+#top {
+    background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(./assets/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+
+  }
+  
+  #topText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 10px black;
+    font-size: 6vmax;
+}
+
+#about{
+    background-color: white;
+    color: rgb(37, 37, 51);
+    padding: 2em;
+}
+
+#productTitle{
+    color: rgb(218, 218, 218);
+    background-color: rgb(37, 37, 51);
+    padding: 10px 10px 1px 10px;
+    margin-bottom: 0;
+}
+
+#productBox{
+    display: flex;
+    list-style: none;
+    background-color: rgb(218, 218, 218);
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.products{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 15em;
+    text-align: center;
+    padding: 1em;
+    color: white;
+    border: black solid 2px;
+    border-radius: 5px;
+    background-color: rgb(37, 37, 51);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact{
+    background-color: white;
+    color: rgb(37, 37, 51);
+    padding: 2em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    background-color: rgb(37, 37, 51);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: .1em;
+    text-align: center;
+}
