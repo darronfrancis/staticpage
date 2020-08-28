@@ -10,7 +10,7 @@
 <body style="margin: 0px;">
   <nav id="navbar">
     <div id="navbarText">
-      <h3>Home</h3>
+      <a href="#navbar"><button id="navbarButtons">Home</button></a>
       <div id="navbarList">
         <a href="#about"><button id="navbarButtons">About</button></a>
         <a href="#productTitle"><button id="navbarButtons">Products</button></a>
@@ -61,16 +61,31 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </ul>
   </div>
-  
-  <div id="contact">
-      <p>3272 Highway 145 N, Quitman, Mississippi 39355</p>
-      <a href="tel:601-776-2366" target="blank"><img src="./assets/phone.png" alt="call" style="height: 32px; margin: 0 25px 0;"></a>
-      <img src="./assets/email.png" alt="facebook" style="height: 32px;">
-      <a href="https://www.facebook.com/archusamemorial" target="blank"><img src="./assets/facebook.png" alt="facebook" style="height: 32px;margin: 0 0 0 25px;"></a>
-  </div>
 
+  <div id="visit">
+    <div id="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2010.0459118200608!2d-88.72307290425196!3d32.083288762685626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1598568244075!5m2!1sen!2sus" width="90%"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <div id="contactDiv">
+      <div id="contactForm">
+        <form>
+          <h1 style="margin-top: -5px;">Contact Us</h1>
+          <input type="text" id="fname" name="fname" value="First Name"><input type="text" id="lname" name="lname" value="Last Name"><br>
+          <input type="tel" id="phone" name="phone" value="Phone Number"><input type="email" id="email" name="email" value="Email Address"><br>
+          <button style="width: 13em;">Submit</button>
+        </form>
+      </div>
+      <div id="contact">
+        <a href="tel:601-776-2366" target="blank"><img src="./assets/phone.png" alt="call" style="height: 32px; margin: 0 25px 0;"></a>
+        <img src="./assets/email.png" alt="facebook" style="height: 32px;">
+        <a href="https://www.facebook.com/archusamemorial" target="blank"><img src="./assets/facebook.png" alt="facebook" style="height: 32px; margin: 0 0 0 25px;"></a>
+      </div>
+    </div>
+  </div>
+  
   <footer>
     <p>ESTABLISHED 1978</p>
+    <p>3272 Highway 145 N, Quitman, Mississippi 39355</p>
   </footer>
 </body>
 </html>

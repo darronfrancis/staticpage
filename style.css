@@ -1,21 +1,28 @@
 #navbar{
+    position: fixed;
+    z-index: 500;
+    height: 10px;
+    width: 100%;
     background-color: rgb(37, 37, 51);
     font-family: Arial, Helvetica, sans-serif;
-    padding: 1em;
+    padding: 2em;
 }
 
 #navbarText{
     position: relative;
     color: white;
+    margin-top: -15px;
 }
 
 #navbarList{
     position: relative;
-    margin-top: -2em;
+    margin-top: -30px;
+    margin-right: 20px;
     color: white;
     list-style-type: none;
     text-align: end;
     letter-spacing: 1em;
+    padding: 1em;
 }
 
 #navbarButtons{
@@ -84,11 +91,48 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#contact{
-    background-color: white;
-    color: rgb(37, 37, 51);
-    padding: 2em;
+#visit{
+    display: flex;
+    background-color: rgb(218, 218, 218);
+}
+
+#map{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+#contactDiv{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
     text-align: center;
+    width: 50%;
+    justify-content: center;
+    background-color: rgb(218, 218, 218);
+    color: rgb(37, 37, 51);
+}
+
+#contactForm{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 1em;
+    border: solid rgb(37, 37, 51); 
+    background-color: rgb(37, 37, 51);
+    color: white;
+    border-radius: 5px;
+
+}
+
+#contact{
+    display: flex;
+    padding: 1em;
+    background-color: rgb(218, 218, 218);
+}
+
+input{
+    border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
